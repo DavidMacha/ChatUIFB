@@ -8,9 +8,9 @@ export default defineConfig({
     rollupOptions: {
       external: [
         /^vercel:.*/,
-        /node_modules/,
+
         /vercel/,
-        /^node:.*/,
+
       ]
     }
   }
