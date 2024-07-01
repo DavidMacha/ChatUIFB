@@ -5,16 +5,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  
-  REACT_APP_API_KEY=your-api-key,
-  REACT_APP_AUTH_DOMAIN=your-auth-domain,
-  REACT_APP_PROJECT_ID=your-project-id,
-  REACT_APP_STORAGE_BUCKET=your-storage-bucket,
-  REACT_APP_MESSAGING_SENDER_ID=your-messaging-sender-id,
-  REACT_APP_APP_ID=your-app-id
-
-  
-  
+  apiKey: VITE_API_KEY,
+  authDomain: YOUR_AUTH_DOMAIN,
+  projectId: YOUR_PROJECT_ID,
+  storageBucket: YOUR_STORAGE_BUCKET,
+  messagingSenderId: YOUR_MESSAGIN_SENDER_ID,
+  appId: YOUR_APP_ID
 };
 
 // Initialize Firebase
