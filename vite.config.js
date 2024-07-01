@@ -7,7 +7,7 @@ export default defineConfig({
     plugins: [react()],
     rollupOptions: {
       external: [
-        /^vercel:.*/,
+       // /^vercel:.*/,
 
         /vercel/,
 
