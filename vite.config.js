@@ -9,7 +9,7 @@ export default defineConfig({
       external: [
        // /^vercel:.*/,
 
-        /vercel/,
+        ///vercel/,
 
       ]
     }
